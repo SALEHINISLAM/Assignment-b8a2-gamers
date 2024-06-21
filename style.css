@@ -1,0 +1,468 @@
+body{
+    overflow-x: hidden;
+    width: calc(100%-0.2rem);
+    padding: 0.2rem;
+}
+.pink{
+    color: #FF42A5;
+}
+header{
+    background-color: white;
+}
+header h3{
+    font-size: 2.813rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left-nav{
+    font-size: 1rem;
+}
+.left-nav>ul{
+    display: flex;
+    align-items: center;
+}
+.follow{
+    display: flex;
+    justify-content: space-evenly;
+    height: 56px;
+    width: 250px;
+    border: none;
+    /* border: 2px solid tomato; */
+    align-items: center;
+    font-size: 1.125rem;
+    background-color: #0b02231f;
+    border-radius: 8px;
+    padding: 0.5rem;
+    align-content: center;
+}
+.follow img{
+    height: 24px;;
+}
+nav ul>li{
+    list-style-type: none;
+    margin-right: 1.5rem;
+    font-size: 1.125rem;
+}
+main
+{
+    /* padding: 2rem; */
+    background-color: #ff42a41d;
+}
+.goat{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.goat-cap{
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    /* background: linear-gradient(180deg,#8C57EE 5%,#F144AE 5%); */
+}
+.goat ul{
+    list-style-type: none;
+}
+.goat-cap h1{
+    font-size: 3rem;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sign{
+    background: linear-gradient(180deg,#FF42A5 0%, #FF42A5 100%);
+    height: 60px;
+    width: 120px;
+    border-radius: 48px;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+}
+.go{
+    background-color: #4EC5F7;
+    height: 60px;
+    width: 150px;
+    border-radius: 48px;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+}
+.know{
+    background: linear-gradient(180deg,#FF42A5 0%, #FF42A5 100%);
+    height: 60px;
+    width: 170px;
+    border-radius: 48px;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+}
+.goat-img>img{
+    width: 100%;
+}
+.sign:hover,.go:hover{
+    background-color: gray;
+}
+.werg-img{
+    grid-area: werg-img;
+}
+.werg-cap{
+    grid-area: werg-cap;
+    margin-right: 2rem;
+    text-align: right;
+    justify-content: right;
+    /* align-content: center; */
+}
+.werg{
+    display: grid;
+    grid-template-areas: "werg-img    werg-img    werg-cap";
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
+}
+.werg-img>img{
+    width: 100%;
+}
+.funny{
+    text-align: center;
+}
+.funny-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.funny-img{
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+}
+.funny-img>img{
+    max-height: 25rem;
+    border-radius: 1rem;
+}
+.instantly{
+    display: flex;
+    flex: 1fr;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 4rem 2rem;
+}
+.ins-cap{
+    text-align: right;
+}
+.img-container{
+    width: 50%;
+    position: relative;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ins-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    position: absolute;
+    max-width: 90%;
+    max-height: 90%;
+    transition: transform 0.3s ease;
+}
+.image-1 {
+    z-index: 1;
+    transform: translate(20%, -20%);
+}
+
+.image-2 {
+    z-index: 2;
+    transform: translate(-50%, 30%);
+}
+.play-games{
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1fr;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 2rem 6rem 2rem;
+}
+.image-3 {
+    z-index: 1;
+    max-width: 100%;
+    height: auto;
+}
+.margin{
+    align-content: start ;
+}
+.image-4 {
+    z-index: 2;
+    transform: translate(50%, 50%);
+}
+.play-cap{
+    text-align: left;
+    margin-left: 3rem;
+}
+#right{
+    text-align: right;
+}
+td{
+    font-size: 1.25rem;
+    padding: 0.2rem;
+}
+.career{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #FF42A5;
+    align-items: center;
+    width: 100%;
+}
+.career-post{
+    padding: 1.25rem;
+}
+.career-pic>img{
+    width: 100%;
+}
+.pr-1{
+    grid-area: pr-1;
+}
+.pr-2{
+    grid-area: pr-2;
+}
+.pr-3{
+    grid-area: pr-3;
+}
+.pr-4{
+    grid-area: pr-4;
+}
+.pr-5{
+    grid-area: pr-5;
+}
+.pr-6{
+    grid-area: pr-6;
+}
+.pr-7{
+    grid-area: pr-7;
+}
+.pr-8{
+    grid-area: pr-8;
+}
+.pr-9{
+    grid-area: pr-9;
+}
+.profile{
+    display: grid;
+    /* grid-template-areas: 
+    "pr-1     pr-2     pr-3     pr-4     pr-5" 
+    "    pr-6     pr-7     pr-8     pr-9 " */
+    
+    grid-template-areas: 
+    "pr-1 .    pr-2 .    pr-3 .    pr-4 .    pr-5" 
+    ".    pr-6 .    pr-7 .    pr-8 .    pr-9 ."
+    ;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 100%;
+}
+.profile-pic>button{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 60px;
+    border-radius: 48px;
+    font-size: 1rem;
+    color: black;
+    border: none;
+    margin: 3px;
+}
+.profile-pic>button>img{
+    height: 100%;
+}
+.profile-pic>button:hover{
+    border:3px solid #FF42A5;
+    color: #FF42A5;
+}
+footer{
+    background-color: #0B0223;
+    padding: 4rem;
+    text-align: center;
+    align-items: center;
+}
+.option{
+    color: white;
+    font-size: 1.125rem;
+}
+.option ul{
+    display: flex ;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.option li{
+    list-style-type: none;
+}
+.copy{
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.logo>img{
+    max-height: 2.5rem;
+    margin: 0.5rem;
+}
+@media screen and (max-width:576px) {
+    header h3{
+        text-align: center;
+    }
+    .left-nav>ul{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .goat{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .werg{
+        display: flex;
+        flex-direction: column;
+    }
+    .instantly{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);  
+        gap: 2rem;  
+    }
+    .ins-cap{
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .image1, .image2 {
+        transform: none;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .img-container{
+        width: 100%;
+        position: relative;
+        overflow: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ins-img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image {
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        
+    }
+    .image-1 {
+        z-index: 1;
+    }
+    
+    .image-2 {
+        z-index: 2;
+        transform: translate(-50%, 30%);
+    }
+    .play-games{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+    }
+    .career{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .profile{
+        grid-template-areas: 
+        "pr-1 pr-2 pr-3"
+        "pr-4 pr-5 pr-6"
+        "pr-7 pr-8 pr-9"
+        ;
+        .profile-pic>img{
+            max-width: 3rem;
+        }
+    }
+
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .goat{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .werg{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .instantly{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);  
+        gap: 2rem;  
+    }
+    .ins-cap{
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .image1, .image2 {
+        transform: none;
+        position: relative;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .img-container{
+        width: 100%;
+        position: relative;
+        overflow: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ins-img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image {
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        
+    }
+    .image-1 {
+        z-index: 1;
+    }
+    
+    .image-2 {
+        z-index: 2;
+        transform: translate(-50%, 30%);
+    }
+    .play-games{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+    }
+    .career{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .profile{
+        grid-template-areas: 
+        "pr-1 pr-2 pr-3"
+        "pr-4 pr-5 pr-6"
+        "pr-7 pr-8 pr-9"
+        ;
+    }
+}
