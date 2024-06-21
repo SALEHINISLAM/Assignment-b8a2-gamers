@@ -29,7 +29,6 @@ nav{
     height: 56px;
     width: 250px;
     border: none;
-    /* border: 2px solid tomato; */
     align-items: center;
     font-size: 1.125rem;
     background-color: #0b02231f;
@@ -112,7 +111,6 @@ main
     margin-right: 2rem;
     text-align: right;
     justify-content: right;
-    /* align-content: center; */
 }
 .werg{
     display: grid;
@@ -255,10 +253,6 @@ td{
 }
 .profile{
     display: grid;
-    /* grid-template-areas: 
-    "pr-1     pr-2     pr-3     pr-4     pr-5" 
-    "    pr-6     pr-7     pr-8     pr-9 " */
-    
     grid-template-areas: 
     "pr-1 .    pr-2 .    pr-3 .    pr-4 .    pr-5" 
     ".    pr-6 .    pr-7 .    pr-8 .    pr-9 ."
@@ -387,11 +381,8 @@ footer{
         grid-template-columns: repeat(1,1fr);
     }
     .profile{
-        grid-template-areas: 
-        "pr-1 pr-2 pr-3"
-        "pr-4 pr-5 pr-6"
-        "pr-7 pr-8 pr-9"
-        ;
+        display: flex;
+        flex-wrap: wrap;
         .profile-pic>img{
             max-width: 3rem;
         }
