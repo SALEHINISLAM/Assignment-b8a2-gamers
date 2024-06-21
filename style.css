@@ -381,8 +381,14 @@ footer{
         grid-template-columns: repeat(1,1fr);
     }
     .profile{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-areas: 
+        "pr-1        pr-2"
+        "pr-3        pr-4"
+        "pr-5        pr-6"
+        "pr-7        pr-8"
+        "pr-9        ."
+        ;
         .profile-pic>img{
             max-width: 3rem;
         }
